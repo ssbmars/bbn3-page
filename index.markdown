@@ -18,35 +18,34 @@ https://tangobattle.com
 https://github.com/ssbmars/BBN3/releases/download/Latest/BBN3.Latest.zip.
 
 ## FAQ
-Q: Can I play through the singleplayer story with this patch?
+Q: Can I play through the singleplayer story with this patch?  
 A: You need to use the singleplayer version of this patch in order to play through the story. The singleplayer patch is included with the main download. Note: the singleplayer patch is intended only for playing through the story. It is not balanced for pvp and will not provide a good pvp experience.
 
-Q: I'm playing through the singleplayer version and collected a RegUp, but my Reg Memory has not increased at all. Is it stuck at 2MB?
+Q: I'm playing through the singleplayer version and collected a RegUp, but my Reg Memory has not increased at all. Is it stuck at 2MB?  
 A: Your Regular Memory is calculated differently. It begins at 2MB and caps at 5MB. Each RegUp you collect brings you closer to your next RegMem increase, but each increase requires multiple RegUp pieces before you see any effect. The Reg+ NCPs will increase your RegMem by +1 each, up to a max of 8MB.
  
-Q: Is there still a ruleset for pvp matches?
+Q: Is there still a ruleset for pvp matches?  
 A: Anything the game allows you to do is legal in pvp.
 For things outside of the game: 
 - Do not use cheat codes.
 - Do not use autofire controller inputs.
 - Do not purposely disconnect or attempt to cause desyncs mid-match.
 
-Q: Are we really allowed to use the minibomb folder in pvp matches?
+Q: Are we really allowed to use the minibomb folder in pvp matches?  
 A: Not only is it allowed, it's encouraged.
 
 ## How to Manually Apply Patch 
-Download and unzip the BBN3 folder. It can be manually downloaded here.
-https://github.com/ssbmars/BBN3/releases/download/Latest/BBN3.Latest.zip.
+1. Download and unzip the BBN3 folder. [It can be manually downloaded here.](https://github.com/ssbmars/BBN3/releases/download/Latest/BBN3.Latest.zip)  
+2. Launch the included flips.exe program. Choose the "Apply Patch" button. Select BBN3.bps, then locate and select your vanilla BN3 Blue ROM. When prompted, save the new rom file as "BBN3.gba". 
+3. BBN3.gba is now ready to be played in an emulator. A pvp-ready save file will be generated when you choose NEW GAME.  
 
-Launch the included flips.exe program.  Choose the "Apply Patch" button.  Select BBN3.bps, then locate and select your vanilla BN3 Blue ROM. When prompted, save the new rom file as "BBN3.gba".
-BBN3.gba is now ready to be played in an emulator. You don't need to load a save file.
-NOTE:
+NOTE:  
 Make sure you legally aquired your ROM by dumping a clean copy of the English US version of BN3 Blue. Downloading a copy from the internet is illegal and insecure. The majority of rom sites today primarily distribute malware instead of actual roms. 
-The included patching software will verify whether your BN3 Blue rom is clean before it applies the patch. 
-The correct MD5 hash for an unmodified US BN3 Blue ROM is:
-```6fe31df0144759b34ad666badaacc442```
-You can check the hash of your ROM file by using this online tool:
-https://emn178.github.io/online-tools/md5_checksum.html
+The included patching software will verify whether your BN3 Blue rom is clean before it applies the patch.  
+The correct MD5 hash for an unmodified US BN3 Blue ROM is:  
+```6fe31df0144759b34ad666badaacc442```  
+You can check the hash of your ROM file by using this online tool:  
+[https://emn178.github.io/online-tools/md5_checksum.html](https://emn178.github.io/online-tools/md5_checksum.html)
 
 ## Acknowledgements
 ### The following people contributed to the project in a notable way:
