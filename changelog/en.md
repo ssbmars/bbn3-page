@@ -1,3 +1,9 @@
+---
+layout: page
+title: Changelog
+permalink: /changelog/en/
+---
+
 ## Alpha 0.1 (Aug 2021)
 
 This changelog is a combined list of all of the updates to date, in addition to the latest changes.
