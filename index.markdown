@@ -11,15 +11,6 @@ BBN3 is a balance patch for Megaman Battle Network 3 Blue. There are changes at 
 
 Download the Tango client to play BBN3 today! Tango provides rollback netcode for all Battle Network games, and patches such as BBN3 come bundled with Tango by default. Just import a valid BN3 Blue ROM and SAVE, then choose BBN3 from the "Patch" dropdown.
 
-<iframe
-    width="640"
-    height="480"
-    src="https://www.youtube.com/watch?v=uHcGD015Gqw"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
 
 ## How to Play Online
 Install Tango to play online with rollback netcode! 
