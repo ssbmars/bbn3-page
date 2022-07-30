@@ -5,7 +5,7 @@
 layout: home
 ---
 
-[![Tango link](bbn3gettango.png)](https://tangobattle.com/){:target="_blank"}
+[![Tango link]({{site.images}}/bbn3gettango.png)](https://tangobattle.com/){:target="_blank"}
 
 BBN3 is a balance patch for Megaman Battle Network 3 Blue. There are changes at every level, from individual chips to universal engine mechanics. Its goal is to make pvp accessible, fun, and interactive.
 
@@ -22,7 +22,7 @@ Patches are downloaded and managed automatically by Tango. Simply load BN3 Blue 
 <https://tangobattle.com>
 
 ## Download for Singleplayer and Other PvP Methods
-[![Download link](./bbn3downloadimage.png)](https://github.com/ssbmars/BBN3/releases/download/Latest/BBN3.Latest.zip)
+[![Download link]({{site.images}}/bbn3downloadimage.png)](https://github.com/ssbmars/BBN3/releases/download/Latest/BBN3.Latest.zip)
 
 ## FAQ
 Q: Can I play through the singleplayer story with this patch?  
