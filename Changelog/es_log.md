@@ -2,6 +2,7 @@
 layout: page
 title: Changelog en Español
 permalink: /changelog/es/
+exclude: true
 ---
 
 ## Alpha 0.1 (Agosto del 2021)
