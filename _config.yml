@@ -22,18 +22,16 @@ title: BBN3
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The BN3 Balance patch
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/bbn3-page" # the subpath of your site, e.g. /blog
 url: "https://bbn3" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
 # Build settings
-#theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-
-remote_theme: jekyll/minima
 
 minima: 
   skin: dark
