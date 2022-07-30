@@ -5,7 +5,7 @@
 layout: home
 ---
 
-[![Tango link](../bbn3gettango.png)](https://tangobattle.com/){:target="_blank"}
+[![Tango link](https://www.github.com/ssbmars/bbn3-page/blob/gh-pages/bbn3gettango.png)](https://tangobattle.com/){:target="_blank"}
 
 BBN3 is a balance patch for Megaman Battle Network 3 Blue. There are changes at every level, from individual chips to universal engine mechanics. Its goal is to make pvp accessible, fun, and interactive.
 
