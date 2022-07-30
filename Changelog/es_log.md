@@ -1,0 +1,173 @@
+---
+layout: page
+title: Changelog en Español
+permalink: /changelog/es/
+---
+
+## Alpha 0.1 (Agosto del 2021)
+
+Esta lista de cambios es una lista combinada de todas las actualizaciones a la fecha, en adición de los últimos cambios hechos.  
+Esta lista está dividida en 4 secciones: "universal", "cambios exclusivos del PVP", "versión singleplayer" y "arreglos misceláneos y ajustes".  
+Los cambios universales afectan todas las versiones del parche. Los cambios exclusivos del PVP solo se aplican al parche PVP. Los cambios de la versión singleplayer solo afectan el parche PVE.  
+Mientras que las 3 secciones previas contienen documentación de las diferencias entre BBN3 y la versión vainilla del juego, la cuarta sección, "arreglos misceláneos y ajustes" detallan las diferencias de esta actualización de BBN3 y la actualización pasada.  
+
+# Cambios de BBN3 (Universal)
+
+- Traducciones al español han sido implementadas gracias al arduo trabajo del grupo MNTWFL Translations. La descarga principal ahora incluye una carpeta "Spanish" que contiene versiones al español de todos los parches de BBN3 existentes.
+- Cuando tienes una trampa equipada, puedes ver cual es en tu lado. La de tu oponente sigue apareciendo como "???".
+- Cuando estés en la Custom Screen, presionar Select te permitirá ver si tú o tu oponente tienen alguna trampa equipada.
+- La combinación de botones para usar habilidades de escudo (B<-) ha sido puesta al botón Select. La combinación original ya no funciona.
+- La duración universal de la Invisibilidad causada por chips "Flashing" ha sido reducida a 60f.
+- Los ataques Viento remueven Barreras y Auras. Este efecto penetra la intangibilidad y AntiDmg, pero es bloqueada por escudos.
+- El daño se aplica a las barreras y auras aunque MegaMan se encuentre intangible durante el golpe.
+- Agregado soporte para que un ataque pueda empujar a MegaMan la máxima distancia posible en una dirección. Este efecto es referido como BigPush.
+- El SuperArmor ya no defiende de efectos Drag (SmallPush, BigPush).
+- MegaMan recibe temporalmente SuperArmor al estar aturdido. Esto no se aplica al estado Tangle de Vine.
+- MegaMan ahora puede ser empujado y atraído.
+- Los efectos de estado que provocan empuje y atracción ahora pueden mover a los personajes por paneles rotos si es que tienen AirShoes instalados.
+- La ventana activa del TimeFreeze Parry ha sido incrementada a 6 cuadros. El enfriamiento para el TFP es terminado cada vez que MegaMan es golpeado, permitiendo que todos los golpes de un ataque multi golpes sea potencialmente deflectado. Recordatorio: el TFP es activado al presionar Izquierda (<-) antes de ser golpeado por un ataque durante la detención del tiempo. Si es realizado correctamente, reduce el daño a la mitad.
+- La columna trasera de cada jugador no puede ser robada.
+- Los objetos ya no son instantáneamente destruidos cuando son golpeados con un ataque Breaking. En vez de eso, reciben 10 de daño extra por cada golpe Breaking.
+- Cuando entras a la Custom Screen sin haber usado todos los chips de tu mano, puedes usarlos el próximo turno si usas la función ADD en vez de seleccionar chips nuevos.
+- El bono de daño que entregan los paneles elementales es ahora elemento Nulo. Esto previene que el bono de daño sea multiplicado múltiples veces.
+- Los tiempos de carga de todos los Charge Shots ha sido ligeramente acortado.
+- Los escudos tienen un enfriamiento incrementado antes de poder volver a usarse. Esto también se aplica al NCP Block.
+- Los ataques de DarkChips que se usen sin un DarkHole o DarkLicense tendrán su daño reducido a 1/4 de su valor original en vez de desaparecer. DarkAura se activará y durará 4 segundos en vez de desaparecer.
+- Los Giga Chips y los estilos exclusivos entre la versión White y Blue no tienen limitación de uso.
+- El glitch del 11vo chip ha sido arreglado.
+- La mayoría de los Programas del Navi Customizer han tenido su tamaño reducido. Todos los NCPs vienen comprimidos por defecto. Algunos tienen formas alternativas que pueden ser activadas pasando por sobre ellos y presionando Select antes de ponerlos en el Navi Customizer.
+- Las partes de HP+ han sido cambiadas a +50/+100/+200/+400, para que esten acordes a su cambio de tamaño.
+- El parámetro WeaponLevel escala con el parámetro de ATK del Buster. Cada +2 ATK incrementa el WeaponLevel en 1. Este efecto funciona sin la necesidad de instalar NCPs de WeaponLevel. Sin embargo, estos siguen funcionando de forma normal, en adición a este efecto nuevo.
+- Se introduce un nuevo tipo de armadura llamada LiteArmor. Al ser equipada, aplica SuperArmor solamente cuando estas en medio de un ataque. Al estar en estado neutro o en movimiento, MegaMan es vulnerable al "Flinch". Actualmente no se encuentra disponible como NCP individual.
+- HubBatch ya no reduce tu vida a la mitad. En vez de eso, reduce tu HP en 300, ignorando el efecto del BugStop. HubBatch ahora entrega los siguientes beneficios: LiteArmor, AirShoes, Shield, Custom+1, BreakBuster, BreakCharge, UnderShirt.
+- La versión NCP de FastGauge (y su efecto buggeado, SlowGauge) aplicará una velocidad ligeramente menos intensa que la de sus variantes de chip. Cada turno, la velocidad de la barra se incrementará ligeramente para acercarse a la velocidad por defecto. Cuando un chip de barra sobrescribe el efecto de un NCP de barra, la velocidad al momento de que fue usado será restaurada cuando expire el efecto del chip.
+- Cuando el NCP FastGauge y el efecto NCP SlowGauge se encuentren en PVP, se cancelarán el uno a otro y la batalla comenzará con la barra en velocidad normal.
+- Arreglado un bug del PVP vainilla que causaba que el texto de tu chip desapareciese cuando tu oponente comenzaba una animación de ataque.
+- Los chips TimeFreeze oscurecen y aclaran la pantalla ligeramente más rápido.
+- Muchas descripciones de chips y NCPs fueron re-escritas para que tengan más sentido. Ahora también hay emojis que representan elementos y DarkChips..
+- Se deshabilitó el botón Pausa en PVP.
+- El HP se actualiza mucho más rápido al ser golpeado o curado.
+- Los valores en MegaBytes son mucho más pequeños y solo indican información útil. Los valores van desde los 2 a 9. La capacidad para los chips Regulares es de 5, pero puede ser incrementada hasta 8 con Programas de Navi Customizer de MB+.
+- Para cierto tipos de batallas en las cuales es imposible huir (PVP, luchas contra Navis, el jefe final), ya no saldrá la opción para huir del combate.
+
+### Chips y Habilidades (Universal)
+
+- Gran parte de los chips en tiempo real tuvieron su framedata acelerada de forma significativa. Los ataques de algunos chips salen más rápido, pero la mayoría del tiempo ahorrado vienen de los cuadros de recuperación al final de estos movimientos. Los valores exactos de estos cambios no serán reiterados en esta lista, pero pueden encontrarse en la lista de cambios de la Vista Previa 2.
+- Muchos chips solían incurrir en un estado llamado "retraso de chip" en el cual MegaMan podía terminar la animación de ataque y podía moverse o disparar su Buster, pero no podía usar otro chip hasta que el retraso de chip terminase. Había una cantidad enorme de retraso de chip en un montón de movimientos, resultando en chips que se sentían toscos y que seriamente limitaba la forma en la que podías jugar el juego. Este tipo de retraso ha sido reducido de forma considerable para casi todos los chips.
+- Anubis y Poison Pharaoh ya no atraviesan la invisibilidad con su veneno. Los chips PoisonFace/PoisonMask siguen haciéndolo.
+- Los chips Magnum1/Magnum2/Magnum3 ahora triza los paneles ocupados en vez de dejarlos intactos.
+- HolyPanel ahora aparece a los pies del jugador que lo usa.
+- NorthWind ahora atraviesa escudos.
+- La chips Sensor1/Sensor2/Sensor3 de chips tuvieron su tiempo de duración reducido en 3 segundos. Cuando aparecen por primera vez, los Sensor tienen que esperar 60 cuadros antes de disparar.
+- DarkHole ya no es afectado por el límite de objetos y no borrará objetos existentes cuando aparezca.
+- FastGauge y SlowGauge solo duran 3 turnos. Una vez pase su tiempo límite, la velocidad de la barra se reiniciará.
+- GrabBack y GrabRevenge recuperan los paneles robados y empujan a los oponentes hacia atrás. Sus golpes ya no penetran escudos.
+- FolderBack ahora restaura un máximo de 7 chips standard. Solo son elegibles los chips de ataque, excluyendo los Virus Amistosos y los chips que puedan recuperar HP.
+- GaiaSword/GaiaBlade ahora solo consumirán el daño de chips de elemento Madera. Cualquier chip que no sea elegible para ser consumido, seguirá en tu mano.
+- AntiNavi ya no roba los siguientes Giga chips: Bass, Bass+, Serenade, DeltaRay y ambos AlphaArms. (Estos chips siguen siendo compatibles con otros efectos que solo funcionan con chips de "Navi")
+- Shadow y Mole entregan intangibilidad por una duración que escala con la velocidad de la Custom Gauge al momento de la activación. Durante SlowGauge, sus efectos durarán más, mientras que en FastGauge, sus efectos durarán menos.
+- Rush ya no executará AntiSword.
+- AirSword puede empujar cubos de la misma forma que AirShot.
+- Ahora puedes machacar A para usar el código de comando de DeltaRay.
+- AntiRecov ahora reduce HP por 1x la cantidad de vida recuperada, al igual que en los juegos posteriores.
+- AntiDmg lanza las estrellas mucho antes al ser activado. La versión de chip ahora espera que termine la animación actual de MegaMan antes de que se active. La versión NCP ya no remueve otras trampas al usarse, y también no da ningún indicador al oponente de que se encuentra activo.
+- Reducida la cantidad de kunais de BodyGuard de 18 a 9. Se cambió el ritmo que tienen para que una kunai haga combo con las otras.
+- GutsPunch y GustImpact causan BigPush (las versiones sin código de comando).
+- El golpe de AirSword aplica BigPush.
+- ElecSword aplica el estado aturdido.
+- Las bombas lanzables (Mini/Single/Double/Triple) ahora causan "flinching".
+- Team1 y los chips Shake1/Shake2/Shake3 ya no causan "Flashing".
+- Los chips Needler ya no causan Flinching ni Flashing.
+- El HP de algunos objetos invocables ha sido ajustado.
+	- Rook  300
+	- Meteors  210
+	- Needlers  150
+	- Team1  150
+	- PoisonMask  40 (Este es el HP de la máscara al usar los chips PoisonFace/PoisonMask.)
+	- Prism  500 (No esparcirá el daño del ataque que lo destruye. Prism solia tener HP infinito...)
+
+# Cambios Exclusivos de PVP
+
+La mayoría de los chips tuvieron sus valores de ataque ajustados, junto con sus códigos, clases y elementos. Hay demasiados cambios como para listarlos individualmente. La mejor forma de ver esta información es ver los chips dentro del juego.
+- Aquí está la lista de chips que tuvieron sus valores de daño ajustados pero no muestran su valor de daño dentro del juego:
+	- LavaStage  50 → 25 (por panel)
+	- Zcanon2  60 → 70
+	- Zcanon3  80 → 90
+	- Zstep1  130 → 200
+	- ElemSwrd  150 → 160 (por golpe)
+	- TimeBom+  500 → 600
+- El valor de ataque de CustomSword fue cambiado a un incremento lineal relativo a la Custom Gauge. El valor de ataque se mantiene maximizado mientras la barra este completamente llena.
+- El ataque máximo de Muramasa está ajustado a 500.
+- Algunos chips de múltiples golpes tuvieron su valor de daño ocultado. Eso hace que ya no puedan ser potenciados por chips ATK+. Estos chips aún declaran su valor de ataque en su descripción.
+- Al seleccionar Nuevo Juego en la pantalla de titulo, cargarás en un estado 100% listo para el PVP.
+- El multiplicador universal para las debilidades elementales es ahora 1.5x en vez de 2x.
+- El multiplicador para los ataques de elemento Elec en paneles de hielo es ahora 1.5x en vez de 2x.
+- Ahora puedes avanzar rápidamente por cada estilo con la opción "Style Change". Los programas OilBody/Fish/Battery/Jungle cambiarán el elemento de tu estilo al suyo cuando los corras en la línea de comando. Puedes removerlos y su efecto persistirá hasta que cambies de estilo nuevamente.
+- Custom Style ahora tiene una mejora pasiva de Custom+3.
+- Team Style ahora tiene una mejora pasiva de MegaFolder+2 y Custom+1.
+- La habilidad de curación por bloqueo del Shield Style ha sido reducida a curar el 5% de tu HP máximo. Este valor escala con partes de HP+.
+- Los chips tienen valores individuales de cuantas copias puedes agregar a tu folder. El valor de cantidad a la derecha de cada chip muestra directamente cual es el límite máximo de cuantos pueden haber en un folder.
+- Los códigos de error pueden ser arreglados poniendo un código completamente vacio.
+- Los Códigos EX han sido altamente abreviados, teniendo largos de 1 a 3 caracteres. Un e-mail dentro del juego explica todos los Códigos EX disponibles.
+- Hay e-mails nuevos en la bandeja de Lan que explican detalles importantes del juego. Los e-mails con la información más importante aparecerán como no leídos al comenzar una nueva partida.
+- Las Auras expiran alrededor del doble de rápido que en la versión vainilla.
+- BeastMan ya no tiene el código de comando que le permitía golpear más de tres veces.
+- Los Virus Amistosos tuvieron su sistema de ataque modificado. Ya no pueden ser alimentados y sus parámetros ya no pueden redistribuirse. La mayoría de los Virus Amistosos tuvieron sus valores de daño ajustados para que tengan una diferencia de daño mucho mas dramática en cuanto daño pueden hacer, con el resultado más débil siendo los más débiles y los resultados más fuertes siendo muchísimo más fuertes. Son esencialmente un minijuego de apuesta que puede traerte una recompensa de daño inmensa como también pueden decepcionarte. Para ver los valores de daño específicos de los Virus Amistosos, revisa a los Progs en el Virus Breeder.
+- La GutsMachineGun ya no produce Flinching o Flashing en ninguno de sus golpes.
+- RandomMeter, HoleMeteor, ShotMeteor, y Meteors ya no producen Flashing.
+- Los paneles de Lava ya no producen Flashing.
+- Estos chips han sido deshabilitados o reemplazados:
+	- Metagal 2 & 3
+	- Mole 2 & 3
+	- Jealousy
+	- BassGS
+	- PlantMan & Flashman versiones 1-4
+	- Las versiones 3-5 de todos los demás Navi.
+
+### [PvP] Cambios de Calidad de Vida y Misceláneos
+
+- Los chips en tu mochila ahora son infinitos. El indicador de cantidad de los chips ha sido cambiado para que muestre cuántas copias de ciertos chips puedes tener en tu folder.
+- Los encuentros aleatorios han sido deshabilitados.
+- Los Desafíos de Tiempo de Serenade no cambian a tu XtraFolder. Los Desafíos de Tiempo ahora tienen las versiones Omega de los Navis. Estas peleas pueden usarse para probar folders.
+- La casa de perro de Lan como también el quiosco de Tamako te llevarán directamente a la Área Secreta.
+- Ahora puede salir de la Área Secreta presionando R. El panel que solía sacarte ahora te transportará al Área Secreta 3.
+- El Desafío de Tiempo de Protoman ha sido reemplazado por Bass. Protoman aún puede ser desafiado en la Isla de Hades.
+- La pelea de BowlMan accesible en la máquina de netbattling de DNN ahora tiene una pelea de MistMan.
+- Los Navis de los Desafíos de Tiempo ahora muestran sus imágenes únicas.
+- Los jefes que siguen el patrón típico de "Flinching" ahora usarán el comportamiento de MegaMan. Cuando ya sufren de "Flinching", ser golpeado nuevamente no refrescará la duración. Esto debería permitir practicar combos que representan de mejor manera el ritmo con el cual se deben ejecutar combos a jugadores reales.
+
+# Versión Singleplayer
+
+- Ten en cuenta que cualquier cambio bajo la sección "Cambios Exclusivos de PVP" no se aplican a la versión para un solo jugador.
+- El estilo GroundStyle es adquirible de forma normal.
+- Todos los estilos llegan a nivel máximo en 100 batallas. Solo necesitas 50 batallas para recibir un estilo nuevo.
+- Todos los Giga chips pueden ser obtenidos por varios métodos; mayoritariamente de tiendas.
+- El chip de Punk puede obtenerse.
+- Tu Memoria Regular se calcula de una forma distinta. Comienza en 2MB y llega a los 5MB. Cada RegUp que obtengas te acerca cada vez más a tu próximo incremento de MemReg, pero cada incremento requiere múltiples RegUps antes de que puedas ver algún efecto. Ten en cuenta que estás prácticamente comenzando el juego con 20MB, por lo que no debería sorprenderte que tome un tiempo que incremente.
+- Después de recibir el NCP Press de Cossak, ganarás el efecto de caminar por caminos comprimidos de forma inmediata. No es necesario instalar el NCP.
+- El NCP EnergyChange siempre está en efecto.
+- Al comenzar una nueva partida, los chips de MistMan serán agregados a tu biblioteca.
+- El tutorial puede saltarse al comienzo del juego.
+- Los NCP ElemBody funcionan de forma normal, pero también asignaran su elemento a tu próximo cambio de estilo.
+- Si el Navi Customizer es ejecutado sin un NCP ElemBody, el estilo de tu próximo estilo será nuevamente aleatorizado.
+- Justo antes del cuarto para la batalla final, Chaud te dará el giga chip DeltaRay Z y también restaurará el internet a su paleta colorida de colores cuando hables con él.
+
+# Arreglos Misceláneos y Ajustes
+
+- Arreglado un error visual con la demora del NCP Block que mostraba siempre el sprite de Custom Style.
+- Arreglado un exploit que permitía ser invencible por tiempo extendido al usar AntiDmg con Slasher o PoisonFace/Mask.
+- Arreglado un glitch que permitía que el daño de Shake fuese sobrescrito por el de un chip diferente. Este glitch sigue disponible en la versión de un solo jugador porque es una estrategia entretenida y no nos importa si el PVE está desbalanceado de una forma entretenida.
+- Arreglado un bug de la versión vainilla que podía causar que el chip Panic congelase el juego si se usaba en un emulador que no estaba usando BIOS.
+- Bajado el precio de los giga chips de la versión opuesta.
+- Los Desafíos de Tiempo de Serenade ahora premiarán al jugador con tanto el chip DarkAura como Serenade.
+- El Viento ahora remueve BubbleWrap. PlantMan ya no recibe daño del golpe de Viento que remueva su LeafShield.
+- Limpiada la Biblioteca de Chips para que pueda mostrar de forma precisa cuántos chips y memos de PA se encuentran disponibles.
+- Reducida la cantidad de menús que debes navegar en la pantalla de comunicaciones.
+- Arreglada la compatibilidad con el Aleatorizador de BN3. (No disponible para la versión en Español)
+- Arreglados algunos errores de escritura en la historia.
+- Se hizo que el modificador reducido de daño elemental sea exclusivo del PVP.
+- Arreglado un error donde la mejora al daño de TimeBom se aplicaba a TimeBom+, que hacía mucho peor el PA.
+- Arreglado un posible bloqueo que podía ocurrir con FolderBack.
+- Arreglado un bug donde el virus PuffBall podía eliminar a MegaMan de un golpe si chocaba con su máscara.
+- Cambiada la forma en que los caminos comprimidos revisan si es que pueden funcionar sin el NCP Press instalado. Esto será importante después.
+- Muchos cambios se hicieron tras bambalinas para que BBN3 funcione con Rollback Netcode.
