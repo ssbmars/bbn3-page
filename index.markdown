@@ -5,20 +5,24 @@
 layout: home
 ---
 
-[![Tango link](bbn3gettango.png)](https://tangobattle.com/)
+[![Tango link]({{site.images}}/bbn3gettango.png)](https://tangobattle.com/){:target="_blank"}
 
 BBN3 is a balance patch for Megaman Battle Network 3 Blue. There are changes at every level, from individual chips to universal engine mechanics. Its goal is to make pvp accessible, fun, and interactive.
 
 Download the Tango client to play BBN3 today! Tango provides rollback netcode for all Battle Network games, and patches such as BBN3 come bundled with Tango by default. Just import a valid BN3 Blue ROM and SAVE, then choose BBN3 from the "Patch" dropdown.
 
 
+<iframe width="480" height="320" src="https://www.youtube.com/embed/uHcGD015Gqw" title="YouTube Video" frameborder="0" allow="encrypted-media;"></iframe>  
+
+
+
 ## How to Play Online
 Install Tango to play online with rollback netcode! 
-Patches are downloaded and managed automatically by Tango. Simply load BN3 Blue and then select BBBN3 from the "Patch" dropdown menu before starting the netbattle. No manual patching is required.
-https://tangobattle.com
+Patches are downloaded and managed automatically by Tango. Simply load BN3 Blue and then select BBBN3 from the "Patch" dropdown menu before starting the netbattle. No manual patching is required.  
+<https://tangobattle.com>
 
 ## Download for Singleplayer and Other PvP Methods
-[![Download link](bbn3downloadimage.png)](https://github.com/ssbmars/BBN3/releases/download/Latest/BBN3.Latest.zip)
+[![Download link]({{site.images}}/bbn3downloadimage.png)](https://github.com/ssbmars/BBN3/releases/download/Latest/BBN3.Latest.zip)
 
 ## FAQ
 Q: Can I play through the singleplayer story with this patch?  
@@ -48,12 +52,12 @@ The included patching software will verify whether your BN3 Blue rom is clean be
 The correct MD5 hash for an unmodified US BN3 Blue ROM is:  
 ```6fe31df0144759b34ad666badaacc442```  
 You can check the hash of your ROM file by using this online tool:  
-[https://emn178.github.io/online-tools/md5_checksum.html](https://emn178.github.io/online-tools/md5_checksum.html)
+<https://emn178.github.io/online-tools/md5_checksum.html>  
 
 ## Acknowledgements
 ### The following people contributed to the project in a notable way:
 Prof. 9 - Provided TextPet, a very nice text replacement tool.  He also explained plenty of ASM concepts and introduced me to the ARMIPS compiler. In addition, a modified version of the source code from Prof. 9's BN3Plus patch is included in BBN3.
-[https://github.com/Prof9/TextPet](https://github.com/Prof9/TextPet) 
+<https://github.com/Prof9/TextPet>  
 
 X Kirby and NMarkro - They created the Open Mode patch for BN3, the code for which is also used in BBN3 to achieve the pvp-ready gamestate without a save file. This is a huge feature that wouldn't have been possible without their work.
 BN3 Randomizer by X Kirby
@@ -63,5 +67,5 @@ Mgamerz - He published the documentation from his research into BN3 and was rele
 GrabRevenge Showcase Video
 Mgamerz's patch pastebin
 
-The Spanish translated version of BBN3 exists thanks to the hard work of the MNTWFL Translations group, who created and released a full Spanish translation of BN3. Additional info about this group can be found at: [https://www.romhacking.net/community/4853](https://www.romhacking.net/community/4853)
+The Spanish translated version of BBN3 exists thanks to the hard work of the MNTWFL Translations group, who created and released a full Spanish translation of BN3. Additional info about this group can be found at: <https://www.romhacking.net/community/4853>
 Additional Spanish translations are provided by the community members in the NetSaviors Discord server.

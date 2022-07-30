@@ -6,10 +6,10 @@ permalink: /changelog/en/
 
 ## Alpha 0.1 (Aug 2021)
 
-This changelog is a combined list of all of the updates to date, in addition to the latest changes.
-The log is split into 4 sections: "universal", "pvp-exclusive changes", "singleplayer version", and "misc. bugfixes & adjustments".
-Universal changes apply to all versions of the patch. PVP-exclusive changes only apply to the pvp patch. Singleplayer version changes only apply to the pve patch. 
-While the previous 3 sections contain documentation for the differences between BBN3 and vanilla BN3, the fourth section, "misc. bugfixes & adjustments", details the differences between this BBN3 update and the previous update.
+This changelog is a combined list of all of the updates to date, in addition to the latest changes.  
+The log is split into 4 sections: "universal", "pvp-exclusive changes", "singleplayer version", and "misc. bugfixes & adjustments".  
+Universal changes apply to all versions of the patch. PVP-exclusive changes only apply to the pvp patch. Singleplayer version changes only apply to the pve patch.  
+While the previous 3 sections contain documentation for the differences between BBN3 and vanilla BN3, the fourth section, "misc. bugfixes & adjustments", details the differences between this BBN3 update and the previous update.  
 
 # BBN3 changes (universal)
 
