@@ -3,7 +3,7 @@ layout: page
 title: Changelog
 permalink: /changelog/en/
 ---
-[![Tango link](../bbn3gettango.png)](https://tangobattle.com/){:target="_blank"}
+
 ## Alpha 0.1 (Aug 2021)
 
 This changelog is a combined list of all of the updates to date, in addition to the latest changes.  
