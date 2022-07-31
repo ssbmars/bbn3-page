@@ -21,9 +21,10 @@
 title: BBN3
 description: >- # this means to ignore newlines until "baseurl:"
   The BN3 Balance patch
-url: "https://ssbmars.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/bbn3-page" # the subpath of your site, e.g. /blog
-
+#url: "https://ssbmars.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/bbn3-page" # the subpath of your site, e.g. /blog
+url: "https://www.n1gp.dev" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 
 #email: your-email@example.com
 #twitter_username: jekyllrb
