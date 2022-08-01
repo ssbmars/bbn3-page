@@ -40,11 +40,14 @@ plugins:
 minima: 
   skin: dark
 
+optional_front_matter:
+  enabled: false
+
+
 bbn3repo: "/BBN3"
 bbn6repo: "/BBN6"
 
 media: "/media"
-
 
 
 # Exclude from processing.
