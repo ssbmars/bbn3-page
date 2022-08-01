@@ -1,0 +1,65 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.site-header {
+  border-top: 0px;
+  border-bottom: 1px solid $border-color-01;
+  min-height: $spacing-unit * 1.6;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  img {
+  	position: fixed;
+  	left: 40px;
+  }
+
+  background-image: url("/media/antidmg.png");
+  background-size: contain;
+  //background-size: auto 80%;
+
+  background-position: left center;
+  background-repeat: no-repeat;
+  //background-size: 256px 90px;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  @include relative-font-size(1.1);
+  display: inline-block;
+  font-weight: 300;
+  margin-bottom: 0;
+  float: left;
+  min-width: 140px;
+  opacity: 0;
+
+  @include media-query($on-palm) {
+    padding-right: 45px;
+  }
+
+}
+
+.site-nav {
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    display: inline-block;
+    //padding: 5px 10px;
+    padding: 15px 18px 15px 18px;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    margin-left: 5px;
+    &:first-child {
+      margin-left: 0px;
+    }
+    &:hover {
+    	text-decoration: none;
+    	background-color: rgba(20, 60, 200, 0.6);
+    }
+  }
+
+}
